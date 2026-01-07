@@ -58,7 +58,7 @@ const Contact = () => {
       <div className="container-wide">
         <h2 className="section-title">Get in Touch</h2>
         <p className="text-lg text-muted-foreground mt-4 mb-10 max-w-2xl">
-          Interested in working together or have a question? Reach out and I'll get back to you.
+          Interested in working together or have a question? Reach out through given links.
         </p>
 
         <div className="grid lg:grid-cols-2 gap-12">
