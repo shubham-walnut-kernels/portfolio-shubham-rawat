@@ -17,8 +17,15 @@ interface HeroProps {
 
 const Hero = ({ profileImage }: HeroProps) => {
   return (
-    <section className="min-h-screen flex items-center pt-20 pb-16">
-      <div className="container-wide">
+    <section className="min-h-screen flex items-center pt-20 pb-16 relative overflow-hidden">
+      {/* Burgundy gradient accents */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-radial from-burgundy/8 via-burgundy/3 to-transparent rounded-full blur-3xl translate-x-1/3 -translate-y-1/4" />
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-radial from-burgundy/6 via-transparent to-transparent rounded-full blur-3xl -translate-x-1/3 translate-y-1/4" />
+        <div className="absolute top-1/2 left-1/2 w-[400px] h-[400px] bg-gradient-radial from-primary/5 to-transparent rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2" />
+      </div>
+      
+      <div className="container-wide relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
           <div className="order-2 lg:order-1 animate-fade-in">
