@@ -7,10 +7,10 @@ const navItems = [
 ];
 
 const socialLinks = [
-  { icon: Mail, href: 'mailto:shubham.rawat@example.com', label: 'Email' },
-  { icon: Phone, href: 'tel:+919876543210', label: 'Phone' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/shubhamrawat', label: 'LinkedIn' },
-  { icon: Github, href: 'https://github.com/shubham318', label: 'GitHub' },
+  { icon: Mail, href: 'mailto:shubhamrawat318116@example.com', label: 'Email' },
+  { icon: Phone, href: 'tel:+918076999708', label: 'Phone' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/shubham-rawat-09b768297', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/shubham-walnut-kernels', label: 'GitHub' },
 ];
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container-wide py-8 text-center">
         {/* Name & Title */}
         <h1 className="text-4xl md:text-5xl font-bold mb-2">Shubham Rawat</h1>
-        <p className="text-xl md:text-2xl font-light opacity-90 mb-6">Data Scientist</p>
+        <p className="text-xl md:text-2xl font-light opacity-90 mb-6">Data Analyst</p>
         
         {/* Social Icons */}
         <div className="flex justify-center gap-3 mb-6">
