@@ -7,7 +7,7 @@ const navItems = [
 ];
 
 const socialLinks = [
-  { icon: Mail, href: 'mailto:shubhamrawat318116@example.com', label: 'Email' },
+  { icon: Mail, href: 'mailto:shubhamrawat318116@gmail.com', label: 'Email' },
   { icon: Phone, href: 'tel:+918076999708', label: 'Phone' },
   { icon: Linkedin, href: 'https://linkedin.com/in/shubham-rawat-09b768297', label: 'LinkedIn' },
   { icon: Github, href: 'https://github.com/shubham-walnut-kernels', label: 'GitHub' },
@@ -27,10 +27,10 @@ const Header = () => {
         <div className="flex justify-center gap-3 mb-6">
           {socialLinks.map((link) => (
             <a
-              key={link.label}
+              key={link.href}
               href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
+              target={link.href.startsWith("http") ? "_blank" : undefined}
+              rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
               className="w-10 h-10 rounded-full border-2 border-white/80 flex items-center justify-center hover:bg-white hover:text-burgundy transition-colors"
               aria-label={link.label}
             >
