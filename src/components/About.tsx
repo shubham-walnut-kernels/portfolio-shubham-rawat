@@ -9,12 +9,12 @@ const education = [
   {
     degree: '12th Grade',
     institution: 'Delhi Kannada School, Delhi',
-    year: '',
+    year: '2021',
   },
   {
     degree: '10th Grade',
     institution: "St. Crispin's Sr. Sec. School, Gurugram",
-    year: '',
+    year: '2019',
   },
 ];
 
