@@ -53,7 +53,7 @@ const Footer = () => {
               <Phone size={18} />
             </a>
             <a
-              href="https://linkedin.com/in/"
+              href="https://linkedin.com/in/shubham-rawat-09b768297"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
@@ -62,7 +62,7 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a
-              href="https://github.com/shubham318"
+              href="https://github.com/shubham-walnut-kernels"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
