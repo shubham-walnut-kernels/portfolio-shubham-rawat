@@ -4,7 +4,7 @@ const education = [
   {
     degree: 'Data Analyst Internship',
     institution: 'Softogrid Solution Private Limited, Noida',
-    year: 'Aug 2025- Present',
+    year: 'Sept 2025- Present',
   },
   {
     degree: 'B.Sc. in Statistics, Mathematics & Physics',
